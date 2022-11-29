@@ -1,0 +1,237 @@
+
+h1,
+h2,
+h3,
+p{
+
+    color:whitesmoke;
+}
+
+.h1{
+    font-size: 25px;
+}
+
+.h2{
+    font-size: 10px;
+}
+
+.search-btn{
+    width: 15%;
+    height: fit-content;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    border: 1px solid #ced4da;
+    background-color: rgba(128, 128, 128, 0.604);
+    color: white;
+    border-radius: .375rem;
+    appearance: none;
+    margin-top: 60px;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+   
+    }
+
+    #btn-location{
+    width: 15%;
+    height: 30px;
+    padding: .375rem .75rem;
+    font-size: 11px;
+    font-weight: 400;
+    border: 1px solid #ced4da;
+    background-color: rgba(128, 128, 128, 0.604);
+    color: white;
+    border-radius: .375rem;
+    appearance: none;
+    margin-top: 0;
+    margin-bottom: 62px;
+    margin-left: 150px;
+    }
+    #btn-location:hover{
+        outline: 0;
+box-shadow: 0 0 0 .25rem rgba(13,110,253,.25);
+transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+        
+    }
+.search-btn:hover{
+border-color: #86b7fe;
+outline: 0;
+box-shadow: 0 0 0 .25rem rgba(13,110,253,.25);
+transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+
+.flex {
+display: flex;
+flex-direction:row;
+margin-right: 160px;
+}
+
+.container{
+    background: url("../media/image.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size:800px;
+    max-width: fit-content;
+    margin-top: 0 auto;
+    /* position: relative; */
+    
+        }
+
+section{
+    min-height: 100vh;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.section-top{
+
+    min-height: 10vh;
+    max-width: 200px;
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    margin-right: 30px;  
+}
+.top-container{
+            display:flex;
+            justify-content:space-between;
+            max-width: 800px;
+            height: 115px;
+            background-color: rgba(9, 9, 9, 0.453);
+            padding-top: 10px; 
+            margin: 0 auto;
+            border: 2px solid rgba(0, 0, 0, 0.357);
+            border-radius: 10px;
+            
+        }
+
+        .top-container-invisible{
+            display:flex;
+            justify-content:center;
+            max-width: 200px;
+            height: 40px;
+            padding-top: 20px;
+            margin-right: 20px;
+        
+        }
+
+            .middle-container{
+            display: flex;
+            margin: auto;
+            flex-direction: column;
+            justify-content: space-between;
+            margin-top: 50px; 
+            width: 800px;
+            height: 200px;
+        }
+
+        .bottom-container  {
+            display: flex;
+            flex-direction: row; 
+            justify-content: space-between;  
+            max-width: 800px;
+            height: 150px;
+            background-color: rgba(1, 0, 0, 0.299);
+            padding-right: 20px;
+            padding-top: 20px; 
+            margin: 0 auto;
+            border: 1px solid rgba(0, 0, 0, 0.682);
+            border-radius: 10px;
+            /* position: relative; */
+            
+        }
+
+
+        /* Bootstrap override styling */
+
+        .form-control{
+            margin-left: 150px;
+            margin-top: 60px;
+            max-width: 400px;
+            
+        }
+
+
+        .btn{
+            margin-top: 40px;
+        }
+    
+
+        ul#forecast-days li{
+    display: inline;
+    padding: 5px; 
+    margin: 0 auto; 
+    font-size: 14px;
+    color:rgba(255, 255, 255, 0.806);
+
+}
+
+ul#forecast-icons li{
+    display: flex;
+    font-size: 26px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    margin-right:20px;
+}
+
+ul#forecast-degrees li{
+    display: flex;
+    font-size: 22px;
+    color:white;
+}
+
+        .time {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.date{
+    text-align: left;
+    margin-left: 20px;
+    color: white;
+    font-size: 14px;
+}
+
+    #cta > h1::before {
+            position: 'right';
+            top: 600px;
+            /* margin-right: 20px; */
+        } 
+
+        #cta > h1::after{
+            position:relative;
+            top: -10px;
+            font-size: xx-small !important;
+        } 
+
+        
+
+        .day {
+            text-align: center;
+            display: flex;
+            margin-bottom: 10px;
+        }
+
+        .degrees-today{
+            font-size: 50px;
+        }
+
+        .container-todays-forecast{
+            display:flex;
+            margin-left: 50px;
+            flex-direction: column;
+
+        }
+
+        .todays-date{
+            text-align: left;
+            font-size: 14px;
+            /* color: rgba(255, 255, 255, 0.836); */
+        }
+
+        .days-forecast{
+            color: pink;
+        }
